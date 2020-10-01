@@ -1,0 +1,79 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/cats-header.jpg"
+  overlay : true
+
+################### Gallery ###################
+gallery:
+  enable : true
+  title : "kittens"
+  images:
+    - "images/slider/s1.jpg"
+    - "images/slider/s2.jpg"
+    - "images/slider/s3.jpg"
+    - "images/slider/s4.jpg"
+    - "images/slider/s5.jpg"
+    - "images/slider/s6.jpeg"
+    - "images/slider/s7.jpg"
+    - "images/slider/s8.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : "images/kittens-header.jpg"
+  title : "<span> LOVE CAT CAFE</span> "
+  description : "Cat cafes have taken off in Japan in the last few years. With pet ownership in the city difficult due to small living quarters, strict rental agreements and busy lifestyles, such cafes are popular with locals as well as overseas visitors who love the company of cats. Reservations are not typically required, although it may be prudent to call in advance at the more popular ones. Note that most places restrict entry to visitors above the age of 13."
+  
+################# Blog ######################
+blog:
+  enable : true
+  title : "<span>Meet our kitty residents...</span>"
+  bg_image : "images/Snowdrop.png"
+  overlay : true
+
+
+################# food Menu ################
+pricing:
+  enable : true
+  title : "<span>MANU IN CAFE</span>"
+  #description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+  #subtitle : "FEATURED ON THE WEEK"
+  pricing_item:
+  - title: "GOLDEN KIWIFRUIT"
+    description: "is sweeter and more aromatic in flavor; the flavor is reminiscent of some subtropical fruit"
+    price : "$ 12.00"
+
+  - title: "LEMONADE JUICE"
+    description: "drink made with lemon juice, water, and sweetened with cane sugar or honey"
+    price : "$ 15.00"
+
+  - title: "LYCESS JUICE"
+    description: " are typically enjoyed fresh; remove a bit of the skin and then squeeze the aril — the fleshy part around the seed "
+    price : "$ 12.00"
+
+  - title: "CAFE AU LAIT"
+    description: "coffee with hot milk"
+    price : "$ 4.50"
+
+  - title: "CAFE MOCHA"
+    description: "espresso, steamed milk, homemade chocolate syrup, topped with whipped cream"
+    price : "$ 7.00"
+
+################### Subscription ################
+subscription:
+  enable : true
+  bg_image : "images/catj.png"
+  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  #Mailchimp subscription configaration 
+  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay : true
+
+################ Contact #######################
+contact:
+  enable : true
+  title: "Let's <span> Contact Us </span>"
+  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  form_action : "#" #contact form works with formspree.io
